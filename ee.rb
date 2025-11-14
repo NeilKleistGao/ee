@@ -2,5 +2,5 @@
 
 require './git_cmds.rb'
 
-cmd = GitCmd.new(ARGV[0])
+cmd = EmojiGitCmd.new(ARGV[0])
 cmd.execute
